@@ -1,0 +1,71 @@
+.flex-container{
+    background-color: purple;
+  
+    display: flex;
+    flex-direction:row ;
+    justify-content:space-between;
+    gap:7px;
+    height: 200px;
+    align-items: center;
+    padding: 10px;
+    align-items: flex-end;
+    align-content:flex-end;
+
+}
+.f{
+  align-self: auto;
+  padding: 20px;
+}
+.flex-item{
+    background-color: blue;
+    color:white;
+  padding: 20px;
+   
+}
+
+.item-3{
+    background-color: red;
+    padding: 20px;
+    
+}
+/*to make flex container(display:flex)
+  to have 100% control over items
+  
+  properties
+  1.flex container
+  2.flex direction - default row/ row-reverse /column/ column-reverse
+
+  flex-direction: row /row-reverse
+      horizontal(main), vertical(cross)
+
+  flex-diection: column/column-reverse    
+       horizontal(cross), vertical(main)
+
+
+       1. justify-content : (main)
+          flex-start
+          flex-end
+          flex-center
+          space-around 
+          space-between (equal space in between)
+          space-around  (gives equal space on either sides)
+       row => flex-start(right)  row-reverse=>flex-start(right)
+       2. align-items: (cross) == allign-self
+
+       3.align-self: can be applied to flex children(individual)
+       stretch / flex-start /flex-end /center
+
+       4.flex-wrap: wrap overflowing items insize container
+       flex-flow: column-wrap / row-wrap
+
+       5.align-content:
+
+       5.flex-grow: occupy space in ratio
+       if two element   ratio 2:1
+       and flex-grow:2 for first  then it will take 2times remaining portion
+        
+  
+  
+  
+  
+  */
